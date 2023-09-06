@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pseudo Elements</title>
+        <style>
+.a p::first-line{background-color: cyan;
+    color: brown;
+    color: blueviolet;
+    background-color:cornflowerblue;
+}
+.b p::first-letter{
+    color: blueviolet;
+    font-size: 25px;
+}
+        </style>
+    </head>
+    <body>
+        <h1>Pseudo Elements</h1>
+        <div class="a">
+        <h2>First Line Pseudo Element</h2>
+        <p>Notice the double colon notation - ::first-line versus :first-line
+
+            The double colon replaced the single-colon notation for pseudo-elements in CSS3. This was an attempt from W3C to distinguish between pseudo-classes and pseudo-elements.
+            
+            The single-colon syntax was used for both pseudo-classes and pseudo-elements in CSS2 and CSS1.
+            
+            For backward compatibility, the single-colon syntax is acceptable for CSS2 and CSS1 pseudo-elements.</p>
+        </div 
+        >
+        <div class="b">
+            <h2>First Letter Pseudo Element</h2>
+            <p>Note: The ::first-letter pseudo-element can only be applied to block-level elements.
+
+            </p></div>
+    </body>
+</html>

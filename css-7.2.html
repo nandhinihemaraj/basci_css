@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Text Overflow</title>
+        <style>
+            div.a2{
+                width: 100%;
+                white-space: nowrap;
+                background-color: aqua;  
+                border: 2px solid black; 
+                overflow: hidden;   
+                text-overflow: ellipsis;  
+            }
+            div.a2:hover{
+                text-overflow: visible;
+            }
+            h1{
+                color: rgb(79, 9, 9);
+                background-color: darkolivegreen;
+                text-align: center;
+                text-shadow: 2px 2px 2px;
+                border: 2px solid black;
+                border-radius: 10px;
+                box-shadow: 2px 2px 2px 2px rgb(37, 36, 36);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Text Overflow Practice</h1>
+     <div class="a2">
+        <div>
+            <p>CSS is the language we use to style an HTML document.
+
+                CSS describes how HTML elements should be displayed.
+                
+                This tutorial will teach you CSS from basic to advanced.</p>
+        </div>
+     </div>   
+    </body>
+</html>

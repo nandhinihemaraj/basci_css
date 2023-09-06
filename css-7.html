@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shadow Practice</title>
+        <style>
+            div{
+                margin-bottom: 40px;
+                margin-left: 20px;
+                border: 1px solid black;
+                word-wrap: keep all;
+            }
+            .a{
+                width: 300px;
+                height: 650px;
+                background-color: rgb(14, 138, 14);
+                border: 2px solid black;
+                border-radius: 5px;
+                box-shadow: 5px 5px;
+            }
+            #a{
+                width: 250px;
+                height: 100px;
+                background-color: aqua;
+                background-image: conic-gradient(red,yellow,blue);
+                box-shadow: 5px 5px;
+                padding: 5px;
+            }
+            #b{
+                width: 250px;
+                height: 100px;
+                background-color: aqua;
+                background-image: linear-gradient(red,yellow,blue,green,black,purple);
+                box-shadow: -5px -5px;
+            }
+            #c{
+                width: 250px;
+                height: 100px;
+                background-color: aqua;
+                background-image: linear-gradient(red,yellow,blue);
+                box-shadow: 5px 5px 2px 2px blue,10px 10px 2px 4px yellow,15px 15px 2px 6px red;
+            }
+            #d{
+                width: 250px;
+                margi: 10px;
+                margin-top: 60px;
+                margin-left: 40px;
+                background-color: aqua;
+                background-image: radial-gradient(blue,purple,green);
+                box-shadow: -5px -5px 2px 2px blue,-10px -10px 2px 4px yellow,-15px -15px 2px 6px red;
+            }
+            h1{
+                margin-left: 20px;
+                text-shadow: 2px 2px 2px red;
+            }
+            #a2{
+                width: 250px;
+                height: 100px;
+                background-color: aqua;
+                box-shadow: 5px 5px 2px black inset;
+                padding: 5px;
+                writing-mode: vertical-lr;
+            }
+            .b{
+                width: 300px;
+                height: 250px;
+                background-color: rgb(14, 138, 14);
+                border: 2px solid black;
+                border-radius: 5px;
+                box-shadow: 5px 5px;
+            }
+            #a3{
+                width: 250px;
+                height: 250px;
+                background-image: conic-gradient(red 0deg, rgb(192, 91, 91) 90deg, rgb(213, 213, 19) 90deg, rgb(74, 74, 6) 180deg, green 180deg, rgb(16, 48, 16) 270deg, rgb(126, 24, 41) 270deg);
+                border-radius: 50%;
+            
+            }
+            .c{
+                width: 300px;
+                height: 350px;
+                background-color: rgb(14, 138, 14);
+                border: 2px solid black;
+                border-radius: 5px;
+                box-shadow: 5px 5px;
+            }
+            #a4{
+                width: 250px;
+                height: 250px;
+                margin-top: 20px;
+                background-image: repeating-conic-gradient(red 0deg, rgb(192, 91, 91) 10deg, rgb(78, 78, 5) 10deg, rgb(74, 74, 6) 20deg, rgb(4, 60, 4) 20deg, rgb(4, 69, 4) 30deg, rgb(70, 8, 18) 40deg);
+                border-radius: 50%;
+            }
+            .d{
+                width: 300px;
+                height: 300px;
+                background-color: rgb(26, 234, 26);
+                border: 2px solid black;
+                border-radius: 5px;
+                box-shadow: 5px 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="a">
+        <h1>Box Shadow</h1>
+     <div id="a">
+        Generate Lorem Ipsum in the text editor, word processor or CMS of your choice. Check out our excellent list of plugins below.
+     </div>
+     <div id="b">
+        Generate Lorem Ipsum in the text editor, word processor or CMS of your choice. Check out our excellent list of plugins below.
+     </div>
+     <div id="c">
+        Generate Lorem Ipsum in the text editor, word processor or CMS of your choice. Check out our excellent list of plugins below.
+     </div>
+     <div id="d">
+        Generate Lorem Ipsum in the text editor, word processor or CMS of your choice. Check out our excellent list of plugins below.
+     </div> 
+    </div> 
+    <div class="b">
+        <h1>Inset Shadow</h1>
+        <div id="a2">
+            Generate Lorem Ipsum in the text editor, word processor or CMS of your choice. Check out our excellent list of plugins below.
+        </div>
+    </div> 
+    <div class="c">
+        <h1>Conic Gradient</h1>
+    <div id="a3">
+
+    </div>
+</div>
+<div class="d">
+<div id="a4">
+
+</div>
+</div>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hoverable Drop Down</title>
+        <style>
+            .dropbtn{
+                background-color: chartreuse;
+                color: rgb(171, 125, 68);
+                padding: 5px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: larger;
+                border: none;
+                cursor: pointer;
+                }
+                .dropdown{
+                    position: relative;
+                    display: inline-block;
+                }
+                .dropdown-content{
+                    display: none;
+                    position: absolute;
+                    background-color: rgb(225, 181, 181);
+                }
+                .dropdown-content a{
+                    color: rgb(122, 68, 173);
+                    text-decoration: none;
+                    display: block;
+                    padding: 14px 24px;
+                }
+                .dropdown-content a:hover{
+                    background-color: cyan;
+                }
+                .dropdown:hover .dropdown-content{
+                    display: block;
+                }
+                .dropdown:hover .dropbtn{
+                    background-color: rgb(12, 195, 12);
+                }
+        </style>
+    </head>
+    <body>
+        <h1>Dropdown Menu</h1>
+        <div class="dropdown">
+            <button class="dropbtn">Drop Down</button>
+        <div class="dropdown-content">
+        <a href="">Link 1</a>
+        <a href="">Link 2</a>
+        <a href="">Link 3</a>
+    </div>
+</div>
+    </body>
+</html>

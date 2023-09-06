@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            CSS Links
+        </title>
+        <style>
+            a:link,a:visited{
+                text-decoration: none;
+                display: block;
+                background-color: chartreuse;
+                color: rgb(47, 31, 12);
+                padding: 12px;
+                margin-top: 20px;
+                width: 150px;
+                text-align: center;
+                border-radius: 12px;
+            }
+            a:hover{
+                background-color: rgb(177, 137, 88);
+                color: rgb(22, 21, 21);
+            }
+            a:active{
+                background-color: aquamarine;
+                color: blue;
+            }
+            h1{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 50px;
+                font-variant: small-caps;
+            }
+            p{
+                margin: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 30px;
+                font-weight: bold;
+                font-variant: small-caps;
+            }
+            div{
+                background-color: aquamarine;
+                color: rgb(37, 8, 64);
+                width: fit-content;
+                border: 8px solid black;
+                outline: 1px solid red;
+                outline-offset: 1px solid rgb(255, 255, 255);
+            }
+        </style>
+        <body>
+            <h1>Border Box</h1>
+            <div>
+            <p>Content</p>
+            <p>Padding</p>
+            <p>Border</p>
+            <p>Margin</p>
+        </div>
+            <a href="">Click Here</a>
+        </body>
+    </head>
+</html>

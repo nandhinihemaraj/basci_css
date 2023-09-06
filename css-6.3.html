@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Counters Practice 2</title>
+    </head>
+    <style>
+        ol{
+            counter-reset: Unit;
+            list-style-type: none;
+        }
+        li::before{
+            counter-increment: Unit;
+            content: Counters(Unit,".")" ";
+        }
+        div{
+            background-color: aqua;
+            border: 4px solid rgb(54, 79, 17);
+            border-radius: 10px;
+            width: 300px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: maroon;
+        }
+        h1{
+            color: rgb(32, 61, 3);
+            text-shadow: 2px 2px 2px black;
+        }
+        </style>
+    <body>
+        <h1>Test Unit</h1>
+        <div>
+      <ol>
+        <li>Unit</li>
+        <li>Unit</li>
+        <li>Unit
+            <ol>
+                <li>Unit</li>
+                <li>Unit
+                    <ol>
+                        <li>Unit</li>
+                        <li>Unit</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li>Unit</li>
+        <li>Unit</li>
+      </ol> 
+    </div> 
+    </body>
+</html>

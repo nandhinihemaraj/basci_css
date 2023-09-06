@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Counters Practice</title>
+    </head>
+    <style>
+        body{
+            counter-reset: Subject;
+        }
+        h1{
+            counter-reset: subsubject;
+        }
+        h1::before{
+            counter-increment: Subject;
+            content:"Subject" counter(Subject)"."
+        }
+        h2::before{
+            counter-increment: subsubject;
+            content: counter(Subject)"."counter(subsubject)" ";
+        }
+    </style>
+    <body>
+        <h1>Mathematics</h1>
+        <h2>Addition</h2>
+        <h2>Subtraction</h2>
+        <h2>Divition</h2>
+        <h2>Multiplication</h2>
+
+        <h1>English</h1>
+        <h2>Alphabets</h2>
+        <h2>Grammer</h2>
+        <h2>Pronounciation</h2>
+        
+        <h1>Science</h1>
+        <h2>Weather</h2>
+        <h2>soil</h2>
+        <h2>Air Pollution</h2>
+        <h2>Water Pollution</h2>
+    </body>
+</html>
